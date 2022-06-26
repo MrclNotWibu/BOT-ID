@@ -45,6 +45,19 @@ Hai, %ucapan %name! 👋
 *Tanggal:* %date
 *Uptime:* %uptime (%muptime)
 
+╭─「 _*INFO BOT*_ 」
+│ • Nama : BOT OFC ID
+│ • Author : MrclNotWibu
+│ • Base : Aine-MD
+│ • Internal : 5 GB
+│ • Disk Space : 50 GB
+│ • Total Grub : 62
+│ • Total Sewa : 54
+│ • Online Mode : True
+│ • Browser : Safari 1.0
+│ • TPS : No Detected 
+╰────
+
 *Limit:* %limit
 *Level:* %level
 *XP:* %exp
@@ -53,8 +66,8 @@ Hai, %ucapan %name! 👋
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
   after: `*Made by ♡*
-*%npmname* | %version
-${'```%npmdesc```'}
+*BOT OFFICIAL* | *© 2022*
+${'```© BOT OFFICIAL```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
