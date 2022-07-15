@@ -29,10 +29,9 @@ Rp. 40.000 Dana
 Rp. 45.000 Pulsa
 
 5. Permanen + Grup
-Rp. 20.000 Dana #Promo
-Rp. 45.000 Pulsa
+Rp. 30.000 Dana
+Rp. 40.000 Pulsa
 wa.me/${owner[0]}
-*Bukan Bot!!!*
 *Owner ${conn.user.name}*
 `,
   buttonText: 'Harga Sesuai Pasaran',
@@ -45,7 +44,7 @@ wa.me/${owner[0]}
   jpegThumbnail: baper },
   businessOwnerJid: `6281381685954@s.whatsapp.net`
   },
-  footerText: 'https://xzeebotz.github.io',
+  footerText: 'https://mrclnotwibu.github.io',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)
