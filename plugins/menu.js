@@ -40,10 +40,11 @@ Hai, %ucapan %name! 👋
 ╭─「 _*INFO*_ 」
 │ • Nama : %name
 │ • Level : %level
-│ • Base : %exp
+│ • Exp : %exp
 │ • Hari : %week
 │ • Tanggal : %date
-│ • Uptime : %uptime (%muptime)
+│ • Uptime : %uptime
+│ • Muptime : %muptime
 │ • Wib : %wib
 │ • Wita : %wita
 │ • Wit : %wit
