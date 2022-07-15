@@ -36,19 +36,23 @@ let tags = {
 const defaultMenu = {
   before: `
 Hai, %ucapan %name! 👋
-  
-*Waktu:* 
-%wib WIB
-%wita WITA
-%wit WIT
-*Hari:* %week
-*Tanggal:* %date
-*Uptime:* %uptime (%muptime)
+
+╭─「 _*INFO*_ 」
+│ • Nama : %name
+│ • Level : %level
+│ • Base : %exp
+│ • Hari : %week
+│ • Tanggal : %date
+│ • Uptime : %uptime (%muptime)
+│ • Wib : %wib
+│ • Wita : %wita
+│ • Wit : %wit
+╰────
 
 ╭─「 _*INFO BOT*_ 」
-│ • Nama : BOT OFC ID
+│ • Nama : BOT ID
 │ • Author : MrclNotWibu
-│ • Base : Aine-MD
+│ • Base : MrclNotWibu
 │ • Internal : 5 GB
 │ • Disk Space : 50 GB
 │ • Total Grub : 62
@@ -188,7 +192,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '💻Website💻',
-                                    url: 'https://xzeebotz.github.io'
+                                    url: 'https://mrclnotwibu.github.io'
                                 }
                             }, {
                                 quickReplyButton: {
