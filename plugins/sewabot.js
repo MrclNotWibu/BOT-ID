@@ -31,6 +31,31 @@ Rp. 45.000 Pulsa
 5. Permanen + Grup
 Rp. 30.000 Dana
 Rp. 40.000 Pulsa
+
+*• JADIBOT •*
+
+1. JadiBot No Own / 30 Hari
+Rp. 25.000 Dana
+Rp. 30.000 Pulsa
+
+2. JadiBot + Own / 30 Hari
+Rp. 35.000 Dana
+Rp. 40.000 Pulsa
+
+3. JadiBot + Own Permanen
+Rp. 45.000 Dana
+Rp. 50.000 Pulsa
+
+*• Pembayaran •*
+
+1. Gopay
+2. Dana
+3. LinkAja
+4. Ovo
+5. Shopee Pay
+6. Pulsa ( +5K )
+
+_*Note:*_ Jika Memakai Script Saya Biaya Menambah 10K, Jika Memakai Script Dari Anda Tidak Membutuhkan Biaya Tambahan. Disarankan Memakai Script Multi Device. Agar Biar Online 24/7 No Offline !
 wa.me/${owner[0]}
 *Owner ${conn.user.name}*
 `,
