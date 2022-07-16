@@ -175,7 +175,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'BOT OFFICIAL © 2022 | BY MRCLNOTWIBU', null, 'https://xzeebotz.github.io', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'BOT OFFICIAL © 2022 | BY MRCLNOTWIBU', null, 'https://mrclnotwibu.github.io', 'Website', '', '', [
       ['💵Donate💵', '/donasi'],
       ['🛒Sewa Bot🛒', '/sewa'],
       ['🖥️Owner🖥️', '/owner']
