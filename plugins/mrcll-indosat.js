@@ -5,7 +5,7 @@ Hay👋, ingin melanjutkan pembayaran?
 
 💰 *Pembayaran*
 • Via: Pulsa Indosat
-• Nomor: 081381685954
+• Nomor: 085707234413
 • A/n: MrclL
 • Mitra: MrclNotWibu
 • Metode pembayaran: Online ( ~Cod~ )
