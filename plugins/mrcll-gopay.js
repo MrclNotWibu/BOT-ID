@@ -32,7 +32,7 @@ conn.sendMessage(m.chat, tm, m)
 }
 handler.help = ['donasi']
 handler.tags = ['info']
-handler.command = /^ovo$/i
+handler.command = /^gopay$/i
 handler.private = true
 
 export default handler
