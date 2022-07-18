@@ -24,8 +24,8 @@ const sections = [
 	    {title: "💳Dana", rowId: '.dana', description: 'Bayar melalui Dana' },
 	    {title: "💳Gopay", rowId: '.gopay', description: 'Bayar melalui Gopay' },
 	{title: "💳Ovo", rowId: '.ovo', description: 'Bayar melalui Ovo' },
-	{title: "💵 Pulsa Telkomsel", rowId: '.pulsasmartfren', description: 'Bayar melalui pulsa' },
-	{title: "💵 Pulsa Indosat", rowId: '.pulsastri', description: 'Bayar melalui pulsa' },
+	{title: "💵 Pulsa Telkomsel", rowId: '.pulsatelkom', description: 'Bayar melalui pulsa' },
+	{title: "💵 Pulsa Indosat", rowId: '.pulsaindosat', description: 'Bayar melalui pulsa' },
 	]
     }, 
 
@@ -42,9 +42,9 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
 
-handler.help = ['shop']
+handler.help = ['pay']
 handler.tags = ['main']
-handler.command = /^(shop)$/i
+handler.command = /^(pay)$/i
 handler.private = true
 
 export default handler
