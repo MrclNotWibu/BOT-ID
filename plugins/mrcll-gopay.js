@@ -19,7 +19,7 @@ Pastikan pulsa kamu mencukupi untuk bertransaksi!
 📮KLIK *SUDAH BAYAR* JIKA SUDAH MEMBAYAR!
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'QRIS', url: 'https://telegra.ph/file/ff71853efeb006d635a90.jpg'}},
+    {index: 1, urlButton: {displayText: 'Chat Admin', url: 'https://wa.me/+6281381685954?text=Bang+Mau+Selesaiin+Pembayaran'}},
     {index: 4, quickReplyButton: {displayText: 'Sudah membayar', id: '.sudahbayar'}},
 ]
 let tm = {
@@ -32,7 +32,7 @@ conn.sendMessage(m.chat, tm, m)
 }
 handler.help = ['donasi']
 handler.tags = ['info']
-handler.command = /^gopay$/i
+handler.command = /^ovo$/i
 handler.private = true
 
 export default handler
