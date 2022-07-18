@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let text = `${htki} DANA ${htka}
+let text = `${htki} GOPAY ${htka}
 
 Hay👋, ingin melanjutkan pembayaran?
 
@@ -19,7 +19,7 @@ Pastikan pulsa kamu mencukupi untuk bertransaksi!
 📮KLIK *SUDAH BAYAR* JIKA SUDAH MEMBAYAR!
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'QRIS', url: 'https://telegra.ph/file/ff71853efeb006d635a90.jpg'}},
+    {index: 1, urlButton: {displayText: 'Chat Admin', url: 'https://wa.me/+6281381685954?text=Bang+Mau+Selesaiin+Pembayaran'}},
     {index: 4, quickReplyButton: {displayText: 'Sudah membayar', id: '.sudahbayar'}},
 ]
 let tm = {
