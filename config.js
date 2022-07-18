@@ -60,6 +60,10 @@ global.packname = sticker_name
 global.author = sticker_author
 global.wm = '© BOT OFFICIAL'
 
+// Hiasan
+global.htki = '––––––『'
+global.htka = '』––––––'
+
 global.multiplier = 1000 // The higher, The harder levelup
 
 global.rpg = {
