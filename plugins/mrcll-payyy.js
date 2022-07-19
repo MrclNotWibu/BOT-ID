@@ -18,7 +18,7 @@ let handler = async m => m.reply(`
 *NOTE:* Jika sudah membayar chat 081381685954
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['paymemt']
-handler.tags = ['info']
+handler.tags = ['database']
 handler.command = /^payment$/i
 
 module.exports = handler
