@@ -1,8 +1,8 @@
 let handler = async m => m.reply(`
-Coming soon sayang
+Ketik .sewabot
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['jbot']
-handler.tags = ['info']
+handler.tags = ['myshop']
 handler.command = /^jbot$/i
 
 module.exports = handler
