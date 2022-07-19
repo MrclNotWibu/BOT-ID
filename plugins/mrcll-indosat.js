@@ -14,7 +14,7 @@ Pembayaran Sewa hanya dapat menggunakan pulsa.
 Pastikan pulsa kamu mencukupi untuk bertransaksi!
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['pulsaindosat']
-handler.tags = ['info']
+handler.tags = ['myshop']
 handler.command = /^pulsaindosat$/i
 
 module.exports = handler
