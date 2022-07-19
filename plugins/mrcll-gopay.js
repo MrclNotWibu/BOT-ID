@@ -13,8 +13,8 @@ Hay👋, ingin melanjutkan pembayaran?
 Pembayaran Sewa hanya dapat menggunakan ovo.
 Pastikan saldo kamu mencukupi untuk bertransaksi!
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['donasi']
+handler.help = ['gopay']
 handler.tags = ['info']
-handler.command = /^dona(te|si)$/i
+handler.command = /^gopay$/i
 
 module.exports = handler
