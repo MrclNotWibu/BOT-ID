@@ -14,7 +14,7 @@ Pembayaran Sewa hanya dapat menggunakan ovo.
 Pastikan saldo kamu mencukupi untuk bertransaksi!
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['gopay']
-handler.tags = ['myshop']
+handler.tags = ['info']
 handler.command = /^gopay$/i
 
 module.exports = handler
