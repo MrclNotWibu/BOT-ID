@@ -42,8 +42,13 @@ let info = `
 ┗$ ${pp}k (3 bulan)
 
 ┏⫹⫺ *ᴘʀᴏ* 
-┗$ ${pv}k (5 bulan)                        
+┗$ ${pv}k (5 bulan)
 
+──···────────────────···──                        
+
+*${htki} JADIBOT ${htka}*
+┏⫹⫺ NO OWNER / 30 HARI
+┗$ 
 –––––– *ᴋᴇʙɪᴊᴀᴋᴀɴ* ––––––
 🗣️: Kak, Kok harganya mahal banget?
 💬: Mau tawar menawar? boleh, silahkan chat owner aja.. max tawar 5k
