@@ -21,7 +21,7 @@ image: {url: fla + 'Donasi'}
 }
 conn.sendMessage(m.chat, tm, m)
 }
-handler.help = ['donasi']
+handler.help = ['sudahbayar']
 handler.tags = ['info']
 handler.command = /^sudahbayar$/i
 handler.private = true
