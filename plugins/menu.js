@@ -7,7 +7,7 @@ let levelling = require('../lib/levelling')
 let tags = {
   'rpgabsen': 'Rpg-Absen',
   'rpg': 'Rpg',
-  'game': 'Game',
+  'database': 'MyShop',
   'xp': 'Exp, Limit & Pay',
   'sticker': 'Sticker',
   'main': 'Main',
@@ -21,7 +21,7 @@ let tags = {
   'berita': 'Berita',
   'tools': 'Tools',
   'fun': 'Fun',
-  'database': 'Database', 
+  'game': 'Game', 
   'vote': 'Voting',
   'absen': 'Absen',
   'catatan': 'Catatan',
