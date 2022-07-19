@@ -22,10 +22,10 @@ let handler = async m => m.reply(`
 *PAYMENT:*
 
 ┏⫹⫺ *PULSA INDOSAT* 
-┗$ .pulsaindosat
+┗$ .indosat
 
 ┏⫹⫺ *PULSA TELKOM* 
-┗$ .pulsatelkom
+┗$ .telkomsel
 
 ┏⫹⫺ *OVO* 
 ┗$ .ovo
@@ -37,7 +37,7 @@ let handler = async m => m.reply(`
 ┗$ .gopay
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['listproduk']
-handler.tags = ['info']
+handler.tags = ['database']
 handler.command = /^listproduk$/i
 
 module.exports = handler
