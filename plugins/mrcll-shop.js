@@ -116,9 +116,9 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
 
-handler.help = ['shop']
-handler.tags = ['main']
-handler.command = /^shop$/i
+handler.help = ['jadibott']
+handler.tags = ['info']
+handler.command = /^jadibott$/i
 handler.private = true
 
 export default handler
