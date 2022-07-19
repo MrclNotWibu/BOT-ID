@@ -15,8 +15,8 @@ let handler = async m => m.reply(`
 ┏⫹⫺ *PULSA INDOSAT* 
 ┗$ .indosat
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['donasi']
-handler.tags = ['info']
-handler.command = /^dona(te|si)$/i
+handler.help = ['pay']
+handler.tags = ['myshop']
+handler.command = /^pay$/i
 
 module.exports = handler
