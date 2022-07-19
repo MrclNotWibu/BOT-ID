@@ -1,5 +1,11 @@
 let handler = async m => m.reply(`
-Coming soon sayang
+╭─「 List 」
+│ •  0% Smpe 100%
+╰────
+
+╭─「 Harga 」
+│ •  55K
+╰────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['achivement']
 handler.tags = ['info']
