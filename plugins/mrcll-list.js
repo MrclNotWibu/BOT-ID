@@ -36,9 +36,9 @@ let handler = async m => m.reply(`
 ┏⫹⫺ *GOPAY* 
 ┗$ .gopay
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['listshop']
-handler.tags = ['info']
-handler.command = /^listshop$/i
+handler.help = ['listproduk']
+handler.tags = ['myshop']
+handler.command = /^listproduk$/i
 
 module.exports = handler
 
