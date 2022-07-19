@@ -13,8 +13,8 @@ Hay👋, ingin melanjutkan pembayaran?
 Pembayaran Sewa hanya dapat menggunakan pulsa.
 Pastikan pulsa kamu mencukupi untuk bertransaksi!
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['pulsatelkom']
-handler.tags = ['myshop']
-handler.command = /^pulsatelkom$/i
+handler.help = ['telkomsel']
+handler.tags = ['info']
+handler.command = /^telkomsel$/i
 
 module.exports = handler
