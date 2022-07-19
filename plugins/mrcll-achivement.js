@@ -8,7 +8,7 @@ let handler = async m => m.reply(`
 ╰────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['achivement']
-handler.tags = ['myshop']
+handler.tags = ['info']
 handler.command = /^achivement$/i
 
 module.exports = handler
