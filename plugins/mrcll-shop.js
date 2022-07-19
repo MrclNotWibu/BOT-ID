@@ -6,6 +6,10 @@ let sn = '10'
 let ss = '25'
 let sp = '30'
 let sv = '40'
+//JadiBot
+let ma = '25'
+let mb = '35'
+let mc = '45'
 //premium
 let ph = '5'
 let pn = '10'
@@ -48,7 +52,14 @@ let info = `
 
 *${htki} JADIBOT ${htka}*
 ┏⫹⫺ NO OWNER / 30 HARI
-┗$ 
+┗$ ${ma}k (1 bulan)
+
+┏⫹⫺ + OWNER / 30 HARI
+┗$ ${mb}k (1 bulan)
+
+┏⫹⫺ PERMANEN + OWNER
+┗$ ${mc}k (permanen)
+
 –––––– *ᴋᴇʙɪᴊᴀᴋᴀɴ* ––––––
 🗣️: Kak, Kok harganya mahal banget?
 💬: Mau tawar menawar? boleh, silahkan chat owner aja.. max tawar 5k
@@ -79,6 +90,12 @@ const sections = [
 	{title: "𝗚𝗢𝗢𝗗", rowId: '.order *Paket:* GOOD • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pp + 'k (3 bulan)' },
 	{title: "𝗣𝗥𝗢", rowId: '.order *Paket:* PRO • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pv + 'k (5 bulan)' },
 	//{title: "🌟 𝗣𝗘𝗥𝗠𝗔𝗡𝗘𝗡𝗧", rowId: '.order *Paket:* PERMANENT • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + ppm + 'k (UNLIMITED)' },
+    }, {
+    title: `✃ ᴘʀᴇᴍɪᴜᴍ`,
+	rows: [
+	    {title: "NO OWNER", rowId: '.order *Paket:* JADIBOT • No Owner', description: '𝗣𝗿𝗶𝗰𝗲: ' + ma + 'k (1 minggu)' },
+	    {title: "+ OWNER", rowId: '.order *Paket:* JADIBOT • + Owner', description: '𝗣𝗿𝗶𝗰𝗲: ' + mb + 'k (1 bulan)' },
+	{title: "PERMANEN + OWNER", rowId: '.order *Paket:* JADIBOT + Owner', description: '𝗣𝗿𝗶𝗰𝗲: ' + mc + 'k (permanen)' },
 	]
     }, {
     title: `✃ PAYMENT`,
