@@ -12,7 +12,7 @@ let handler = async m => m.reply(`
 ╰────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['webonline']
-handler.tags = ['myshop']
+handler.tags = ['info']
 handler.command = /^webonline$/i
 
 module.exports = handler
