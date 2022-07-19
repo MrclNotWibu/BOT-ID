@@ -1,124 +1,43 @@
-let handler = async (m, { conn }) => {
-	//-----PRICE
-//sewa
-let sh = '5'
-let sn = '10'
-let ss = '25'
-let sp = '30'
-let sv = '40'
-//JadiBot
-let ma = '25'
-let mb = '35'
-let mc = '45'
-//premium
-let ph = '5'
-let pn = '10'
-let pp = '15'
-let pv = '20'
-let ppm = '25'
-let info = `
-*${htki} sᴇᴡᴀ ${htka}*
-┏⫹⫺ *ʜᴇᴍᴀᴛ* 
-┗$ ${sh}k/grup (1 minggu)
+let handler = async m => m.reply(`
+「 MrclL Shop 」
 
-┏⫹⫺ *ɴᴏʀᴍᴀʟ* 
-┗$ ${sn}k/grup (1 bulan)
+┏⫹⫺ *JASA CMD* 
+┗$ .jcmd
 
-┏⫹⫺ *sᴛᴀɴᴅᴀʀ* 
-┗$ ${ss}k/grup (2 bulan)
+┏⫹⫺ *ACHIEVEMENT MC* 
+┗$ .achievement 
 
-┏⫹⫺ *ᴘʀᴏ* 
-┗$ ${sp}k/grup (3 bulan)
+┏⫹⫺ *WEB ONLINE* 
+┗$ .webonline
 
-┏⫹⫺ *ᴘᴇʀᴍᴀɴᴇɴ* 
-┗$ ${sv}k/grup (Permanen)
+┏⫹⫺ *PAID EDIT* 
+┗$ .paidedit
 
-──···────────────────···──
+┏⫹⫺ *SEWABOT* 
+┗$ .sewabot
 
-*${htki} ᴘʀᴇᴍɪᴜᴍ ${htka}*
-┏⫹⫺ *ʜᴇᴍᴀᴛ* 
-┗$ ${ph}k (1 minggu)
+┏⫹⫺ *JADIBOT* 
+┗$ .jbot
 
-┏⫹⫺ *ɴᴏʀᴍᴀʟ* 
-┗$ ${pn}k (1 bulan)
+*PAYMENT:*
 
-┏⫹⫺ *ɢᴏᴏᴅ* 
-┗$ ${pp}k (3 bulan)
+┏⫹⫺ *PULSA INDOSAT* 
+┗$ .pulsaindosat
 
-┏⫹⫺ *ᴘʀᴏ* 
-┗$ ${pv}k (5 bulan)
+┏⫹⫺ *PULSA TELKOM* 
+┗$ .pulsatelkom
 
-──···────────────────···──                        
+┏⫹⫺ *OVO* 
+┗$ .ovo
 
-*${htki} JADIBOT ${htka}*
-┏⫹⫺ NO OWNER / 30 HARI
-┗$ ${ma}k (1 bulan)
+┏⫹⫺ *DANA* 
+┗$ .dana
 
-┏⫹⫺ + OWNER / 30 HARI
-┗$ ${mb}k (1 bulan)
-
-┏⫹⫺ PERMANEN + OWNER
-┗$ ${mc}k (permanen)
-
-–––––– *ᴋᴇʙɪᴊᴀᴋᴀɴ* ––––––
-🗣️: Kak, Kok harganya mahal banget?
-💬: Mau tawar menawar? boleh, silahkan chat owner aja.. max tawar 5k
-
-🗣️: Scam ga nih kak?
-💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
-
-
-*📮 Pembayaran Saldo ( ~Cod~ )
-
-▌│█║▌║▌║║▌║▌║█│▌
-`
-const sections = [
-   {
-	title: `✃ sᴇᴡᴀ`,
-	rows: [
-	    {title: "𝗛𝗘𝗠𝗔𝗧", rowId: '.order *Paket:* HEMAT • Sewa', description: '𝗣𝗿𝗶𝗰𝗲: ' + sh + 'k (1 minggu)' },
-	    {title: "𝗡𝗢𝗥𝗠𝗔𝗟", rowId: '.order *Paket:* NORMAL • Sewa', description: '𝗣𝗿𝗶𝗰𝗲: ' + sn + 'k (1 bulan)' },
-	{title: "𝗦𝗧𝗔𝗡𝗗𝗔𝗥", rowId: '.order *Paket:* STANDAR • Sewa', description: '𝗣𝗿𝗶𝗰𝗲: ' + ss + 'k (2 bulan)' },
-	{title: "𝗣𝗥𝗢", rowId: '.order *Paket:* PRO • Sewa', description: '𝗣𝗿𝗶𝗰𝗲: ' + sp + 'k (3 bulan)' },
-	{title: "🔖 𝗩𝗜𝗣", rowId: '.order *Paket:* VIP • Sewa', description: '𝗣𝗿𝗶𝗰𝗲: ' + sv + 'k (Permanen)' },
-	]
-    }, {
-    title: `✃ ᴘʀᴇᴍɪᴜᴍ`,
-	rows: [
-	    {title: "𝗛𝗘𝗠𝗔𝗧", rowId: '.order *Paket:* HEMAT • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + ph + 'k (1 minggu)' },
-	    {title: "𝗡𝗢𝗥𝗠𝗔𝗟", rowId: '.order *Paket:* NORMAL • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pn + 'k (1 bulan)' },
-	{title: "𝗚𝗢𝗢𝗗", rowId: '.order *Paket:* GOOD • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pp + 'k (3 bulan)' },
-	{title: "𝗣𝗥𝗢", rowId: '.order *Paket:* PRO • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pv + 'k (5 bulan)' },
-	//{title: "🌟 𝗣𝗘𝗥𝗠𝗔𝗡𝗘𝗡𝗧", rowId: '.order *Paket:* PERMANENT • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + ppm + 'k (UNLIMITED)' },
-    }, {
-    title: `✃ ᴘʀᴇᴍɪᴜᴍ`,
-	rows: [
-	    {title: "NO OWNER", rowId: '.order *Paket:* JADIBOT • No Owner', description: '𝗣𝗿𝗶𝗰𝗲: ' + ma + 'k (1 minggu)' },
-	    {title: "+ OWNER", rowId: '.order *Paket:* JADIBOT • + Owner', description: '𝗣𝗿𝗶𝗰𝗲: ' + mb + 'k (1 bulan)' },
-	{title: "PERMANEN + OWNER", rowId: '.order *Paket:* JADIBOT + Owner', description: '𝗣𝗿𝗶𝗰𝗲: ' + mc + 'k (permanen)' },
-	]
-    }, {
-    title: `✃ PAYMENT`,
-	rows: [
-	    {title: "💰PAYMENT", rowId: '.pay', description: 'Metode Pembayaran' },
-	    ]
-        },
-]
-
-const listMessage = {
-  text: ' ',
-  footer: info,
-  title: null,
-  buttonText: "ʙ ᴜ ʏ",
-  sections
-}
-await conn.sendMessage(m.chat, listMessage, { quoted: m})
-//conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
-}
-
-handler.help = ['jadibott']
+┏⫹⫺ *GOPAY* 
+┗$ .gopay
+`.trim()) // Tambah sendiri kalo mau
+handler.help = ['donasi']
 handler.tags = ['info']
-handler.command = /^jadibott$/i
-handler.private = true
+handler.command = /^dona(te|si)$/i
 
-export default handler
+module.exports = handler
