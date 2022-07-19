@@ -14,7 +14,7 @@ Pembayaran Sewa hanya dapat menggunakan dana.
 Pastikan saldo kamu mencukupi untuk bertransaksi!
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['dana']
-handler.tags = ['myshop']
+handler.tags = ['info']
 handler.command = /^dana$/i
 
 module.exports = handler
