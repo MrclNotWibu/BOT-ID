@@ -10,5 +10,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     })
     m.reply('☑️ Pesan Telah terkirim ke Owner!\n_*Menunggu confirmasi Dari Owner...*_')
 }
+handler.help = 'order'
+handler.tags = 'info'
 handler.command = /^(order)$/i
 export default handler
