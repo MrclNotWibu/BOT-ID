@@ -113,8 +113,8 @@ let handler = async m => m.reply(`
 🗣️: Scam ga nih kak?
 💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['mrcllshop']
-handler.tags = ['info']
-handler.command = /^mrcllshop$/i
+handler.help = ['mystore']
+handler.tags = ['myshop']
+handler.command = /^mystore$/i
 
 module.exports = handler
