@@ -13,8 +13,8 @@ Hay👋, ingin melanjutkan pembayaran?
 Pembayaran Sewa hanya dapat menggunakan pulsa.
 Pastikan pulsa kamu mencukupi untuk bertransaksi!
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['pulsaindosat']
+handler.help = ['indosat']
 handler.tags = ['info']
-handler.command = /^pulsaindosat$/i
+handler.command = /^indosat$/i
 
 module.exports = handler
