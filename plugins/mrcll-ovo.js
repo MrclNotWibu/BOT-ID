@@ -14,7 +14,7 @@ Pembayaran Sewa hanya dapat menggunakan pulsa.
 Pastikan pulsa kamu mencukupi untuk bertransaksi!
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['ovo']
-handler.tags = ['myshop']
+handler.tags = ['info']
 handler.command = /^ovo$/i
 
 module.exports = handler
