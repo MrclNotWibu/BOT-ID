@@ -10,8 +10,8 @@ Hay👋, ingin melanjutkan pembayaran?
 
 📦 _Informasi Pembayaran_
 
-Pembayaran Sewa hanya dapat menggunakan pulsa.
-Pastikan pulsa kamu mencukupi untuk bertransaksi!
+Pembayaran Sewa hanya dapat menggunakan dana.
+Pastikan saldo kamu mencukupi untuk bertransaksi!
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['dana']
 handler.tags = ['info']
