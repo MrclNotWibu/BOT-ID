@@ -1,10 +1,8 @@
-let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let text = `${htki} TELKOMSEL ${htka}
-
+let handler = async m => m.reply(`
 Hay👋, ingin melanjutkan pembayaran?
 
 💰 *Pembayaran*
-• Via: Pulsa Telkomsel
+• Via: Telkomsel
 • Nomor: 081381685954
 • A/n: MrclL
 • Mitra: MrclNotWibu
@@ -14,25 +12,9 @@ Hay👋, ingin melanjutkan pembayaran?
 
 Pembayaran Sewa hanya dapat menggunakan pulsa.
 Pastikan pulsa kamu mencukupi untuk bertransaksi!
-
-
-📮KLIK *SUDAH BAYAR* JIKA SUDAH MEMBAYAR!
-`
-const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Chat Admin', url: 'https://wa.me/+6281381685954?text=Bang+Mau+Selesaiin+Pembayaran'}},
-    {index: 4, quickReplyButton: {displayText: 'Sudah membayar', id: '.sudahbayar'}},
-]
-let tm = {
-text: text,
-footer: global.wm,
-templateButtons: templateButtons,
-image: {url: fla + 'Donasi'}
-}
-conn.sendMessage(m.chat, tm, m)
-}
-handler.help = ['donasi']
+`.trim()) // Tambah sendiri kalo mau
+handler.help = ['pulsatelkom']
 handler.tags = ['info']
 handler.command = /^pulsatelkom$/i
-handler.private = true
 
-export default handler
+module.exports = handler
