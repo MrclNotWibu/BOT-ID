@@ -2,7 +2,7 @@ let handler = async m => m.reply(`
 Hay👋, ingin melanjutkan pembayaran?
 
 💰 *Pembayaran*
-• Via: Ovo
+• Via: Gopay
 • Nomor: 081381685954
 • A/n: MrclL
 • Mitra: MrclNotWibu
