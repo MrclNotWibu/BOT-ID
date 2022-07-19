@@ -15,10 +15,10 @@ let handler = async m => m.reply(`
 ┏⫹⫺ *PULSA INDOSAT* 
 ┗$ .indosat
 
-*NOTE:* Jika sudah membayar chat https://wa.me/+6281381685954
+*NOTE:* Jika sudah membayar chat 081381685954
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['pay']
+handler.help = ['paymemt']
 handler.tags = ['info']
-handler.command = /^pay$/i
+handler.command = /^payment$/i
 
 module.exports = handler
